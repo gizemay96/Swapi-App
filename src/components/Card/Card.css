@@ -1,0 +1,29 @@
+.card {
+  margin: 20px;
+  background-color: rgba(71, 71, 71, 0.658);
+  
+}
+
+.item-card:hover{
+  animation: hover 600ms 400ms ease-in-out forwards;
+  
+}
+
+
+.card.card-rounded {
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+@keyframes hover {
+  0%   {box-shadow: none;
+    width: 360px;
+   }
+ 
+  100% {
+    box-shadow: 0 5px 30px -1px rgb(131, 128, 100);
+    width: 400px; 
+  }
+
+  
+}

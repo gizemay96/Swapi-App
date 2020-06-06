@@ -1,0 +1,49 @@
+.btn {
+  border: none;
+  padding: 10px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.4);
+  transition: 200ms ease-in-out;
+  min-width: 100px;
+  margin: 10px;
+  font-weight: bold;
+} 
+
+.btn-default {
+  background-color: #eaeaea;
+}
+
+.btn-default:hover {
+  background-color: #fafafa;
+}
+
+
+.btn-blue {
+  background-color: skyblue;
+}
+
+.btn-blue:hover {
+  background-color: blue;
+}
+
+
+.btn-orange {
+  background-color: rgb(255, 208, 0);
+  color: black;
+}
+
+.btn-orange:hover {
+  background-color: rgb(22, 22, 22);
+  color: rgb(255, 208, 0);
+}
+
+.btn-yellow{
+  background-color: rgb(255, 208, 0);
+  color: rgb(75, 75, 75);
+}
+
+.btn-yellow:hover{
+  background-color: rgb(22, 22, 22);
+  color: rgb(255, 208, 0);
+}

@@ -1,0 +1,22 @@
+.detail-card-content{
+  text-align: center;
+  padding: 20px 0;
+  max-height: 300px;
+  overflow: auto;
+}
+
+.detail-card-img{
+    height: 200px;
+    overflow: hidden;
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.detail-card-actions{
+  text-align: center;
+}
+
+span{
+  font-size: large;
+}

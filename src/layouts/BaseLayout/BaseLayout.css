@@ -1,0 +1,38 @@
+
+nav{
+    background-color: rgba(68, 68, 68, 0.438);
+    padding: 15px 0px;
+    text-align: right;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-links>.nav-link{
+    border: 1px solid rgb(143, 143, 143);
+    padding: 8px 15px;
+    margin-right: 20px;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-family: 'Starjedi';
+    letter-spacing: 5px;
+    font-size: 12px;
+}
+
+.nav-links>.nav-link:hover{
+    background-color: rgb(255, 220, 0);
+    color: black;
+    
+}
+
+.nav-brand>img {
+    width: 80px;
+}
+
+@font-face {
+    font-family: 'Starjedi';
+    src: local('Starjedi'), url(../../fonts/Starjedi.ttf);;
+  }

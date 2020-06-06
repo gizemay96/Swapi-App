@@ -1,0 +1,28 @@
+.img {
+  object-fit: cover;
+  max-height: 600px;
+}
+
+.object-cover {
+  object-fit: cover;
+}
+
+.object-contain {
+  object-fit: contain;
+}
+
+.object-fill {
+  object-fit: fill;
+}
+
+.img.img-avatar {
+  max-height: 200px;
+}
+
+.img.img-rounded {
+  border-radius: 4px;
+}
+
+.img.img-circle {
+  border-radius: 50%;
+}

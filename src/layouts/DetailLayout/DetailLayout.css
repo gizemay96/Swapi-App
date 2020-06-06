@@ -1,0 +1,10 @@
+.container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .detail-card{
+    width: 600px;
+  }

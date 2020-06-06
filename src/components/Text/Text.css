@@ -1,0 +1,32 @@
+.text {
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 2px;
+  margin: 0 10px 4px 10px;
+  color: rgb(255, 255, 255);
+}
+
+.text.text-small {
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.text.text-success {
+  color: green;
+}
+
+.text.text-danger {
+  color: red;
+}
+
+.text.text-warning {
+  color: yellow;
+}
+
+.text.text-title {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 24px;
+  margin: 12px 10px;
+  color: rgb(255, 208, 0);
+}
